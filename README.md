@@ -18,7 +18,7 @@ Data Studio Asteroids - mayo25 es una experiencia interactiva impulsada por un m
 📌 LLM + RAG
 Este proyecto combina un LLM (Large Language Model) con arquitectura RAG para responder preguntas en lenguaje natural sobre los sucesos de la Revolución de Mayo de 1810, utilizando:
 
-Un backend Python con integración a un modelo LLM (como HuggingChat, GPT o LLaMA).
+Un backend Python con integración a un modelo LLM (LLaMA).
 
 Sistema RAG que combina:
 
