@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Efemérides 25M · Chat</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="app-container">
+    <header class="header">
+      <h1>EFEMÉRIDES CHAT</h1>
+      <a href="/" class="btn-home">← Home</a>
+    </header>
+
+    <!-- Barra de selección de avatar -->
+    <section class="avatars">
+      <div class="avatar-card active" data-avatar="martin_gueemes">
+        <img src="/static/guemes.png" alt="Martín Miguel de Güemes"/>
+        <h2>Martín Güemes</h2>
+        <p>Defensor del Norte y caudillo gaucho.</p>
+      </div>
+      <div class="avatar-card" data-avatar="juana_azurduy">
+        <img src="/static/juana.png" alt="Juana Azurduy"/>
+        <h2>Juana Azurduy</h2>
+        <p>Heroína de la independencia.</p>
+      </div>
+      <div class="avatar-card" data-avatar="manuel_belgrano">
+        <img src="/static/manuel_belgrano.png" alt="Manuel Belgrano"/>
+        <h2>Manuel Belgrano</h2>
+        <p>Padrino de la Bandera y jurista.</p>
+      </div>
+      <div class="avatar-card" data-avatar="milicias_urbanas">
+        <img src="/static/milicias_urbanas.png" alt="Milicias Urbanas"/>
+        <h2>Milicias Urbanas</h2>
+        <p>Colectivo armado de Buenos Aires.</p>
+      </div>
+    </section>
+
+    <!-- Ventana de chat (se llenará con JS) -->
+    <section class="chat-window"></section>
+
+    <!-- Formulario controlado vía JS -->
+    <form class="chat-input">
+      <input type="hidden" name="avatar" value="martin_gueemes" />
+      <input type="text" name="message" placeholder="Escribe tu mensaje..." autocomplete="off" required />
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+  <!-- Lógica de interacción -->
+  <script src="/static/script.js"></script>
+</body>
+</html>

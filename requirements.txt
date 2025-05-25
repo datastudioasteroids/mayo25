@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+hugchat
+sentence-transformers
+rapidfuzz
+pydantic-settings
+python-docx
+
